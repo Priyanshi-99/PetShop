@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signup Page</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="stylesignup.css">
+	<script>
+function myFunction() {
+  alert("Successfully Signup!!");
+}
+
+</script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	  <a class="navbar-brand" href="#">HOOMAN'S BABIES</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav ml-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="bootstrap.html">Home <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link text-white" href="#">About Us</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link text-white" href="login.html">Login</a>
+		      </li>
+		      <li>
+		      	<a class="nav-link text-white"href="">Signup</a>
+
+		      </li>
+		    </ul>
+		    
+	  </div>
+</nav>
+
+
+	<div class="container-fluid p-0">
+		<div>
+			<img src="kitten1.jpg">
+			<div class="loginbox">
+				<img src="admin.png" class="admin">
+				<h1>Welcome Signup Here!</h1>
+				<form>
+					<p>Full Name</p>
+					<input type="name" name="" placeholder="Your name">
+					<p>Email</p>
+					<input type="email" name="" placeholder="Your mail">
+					<p>Username</p>
+					<input onmouseout ="return validateEmail()" type="email" name=""  placeholder="Enter Username">
+					<p>Password</p>
+					<input type="password" name="" placeholder="Password"> 
+					<p>Contact Number</p>
+					<input type="input" name="" placeholder="Phone Number">
+					
+					<!-- <input onclick="myFunction()" type="submit" name="" value="Login"> -->
+					<button onclick="myFunction()" type="button" class="btn btn-success">Signup</button><br>
+					
+					
+				</form>
+			</div>
+		</div>
+	</div>
+<script src=""></script>
+
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<footer>
+	<div class="footer-copyright text-center py-3">Copyright (c) 2020 Gonzofeed All Right Reseved
+   
+  </div>
+</footer>
+</body>
+</html>
